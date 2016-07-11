@@ -1,19 +1,23 @@
 {
-	"name": "electron-test",
-	"version": "1.0.0",
-	"description": "",
-	"main": "main.js",
-	"scripts": {
-		"start": "electron ."
-	},
-	
-	"author": "",
-	"license": "MIT",
-	"devDependencies": {
-		"electron-prebuilt": "^1.2.6"
-	},
-
-	"dependencies": {
-		"jsonfile": "^2.3.1"
-	}
+  "name": "electron-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-packager": "^7.2.0",
+    "electron-prebuilt": "^1.2.6",
+    "electron-reload": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JackKell/electron-test.git"
+  },
+  "dependencies": {
+    "jsonfile": "^2.3.1"
+  }
 }
