@@ -22,6 +22,3 @@ debug.log
 npm-debug.log
 *.sublime-project
 *.sublime-workspace
-
-# app stuff
-data.json
