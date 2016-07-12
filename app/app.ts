@@ -45,7 +45,7 @@ class ByteFormatePipe implements PipeTransform {
         <p>{{ image.size | byteFormat }}</p>
       </div>
     </div>
-`
+    `
 })
 
 export class App {
