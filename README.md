@@ -9,9 +9,13 @@ This project is simply a project to understand how projects are built in electro
 Install node.js: https://nodejs.org/en/download/
 ### Step 2:
 ```
-npm run build
+npm install
 ```
 ### Step 3:
+```
+npm run build
+```
+### Step 4:
 ```
 npm start
 ```
