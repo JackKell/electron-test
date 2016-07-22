@@ -22,3 +22,4 @@ debug.log
 npm-debug.log
 *.sublime-project
 *.sublime-workspace
+bundle.js
