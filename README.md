@@ -27,11 +27,5 @@ npm install
 ### Step 4:
 Run the following command to automatically rebuild the project while it is running.
 ```
-npm run watch
-```
-
-### Step 5:
-Run the following command in another window to run the application.
-```
-npm start
+npm run dev
 ```
