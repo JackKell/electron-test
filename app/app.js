@@ -1,12 +1,22 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import Details from '../app/component/details.component';
+import Counter from '../app/component/counter.component';
 
 class App extends React.Component {
   render() {
     return (
-      <h1>Hello</h1>
+      <div>
+        <Details
+          title="Up Down Counter Test">
+        </Details>
+        <Counter
+          initialCount="-5">
+        </Counter>
+      </div>
     );
   }
 }
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('content'));
