@@ -6,7 +6,7 @@ export default function counterReducer(state = 0, action) {
     case INCREMENT_COUNTER:
       return state + 1;
       break;
-    case INCREMENT_COUNTER:
+    case DECREMENT_COUNTER:
       return state - 1;
       break;
     default:
