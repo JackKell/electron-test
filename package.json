@@ -21,6 +21,8 @@
     "electron": "^1.6.2",
     "electron-reload": "^1.1.0",
     "bootstrap": "^3.3.7",
+    "react-bootstrap": "^0.30.8",
+    "react-devtools": "^2.0.12",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
     "react-redux": "^5.0.2",
@@ -31,6 +33,6 @@
     "babelify": "^7.3.0"
   },
   "devDependencies": {
-    "react-bootstrap": "^0.30.8"
+
   }
 }
